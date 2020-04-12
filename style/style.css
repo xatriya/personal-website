@@ -1,0 +1,119 @@
+.footer {
+  height: 100px;
+  background: black;
+  padding: 10px; }
+  .footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+  .footer a {
+    color: #70726F;
+    font-size: 25px;
+    padding: 20px;
+    transition: all .5s ease; }
+  .footer a:hover {
+    color: white; }
+
+.stayintouch {
+  background: black;
+  padding: 50px; }
+  .stayintouch ul > li a {
+    text-decoration: none;
+    color: #70726F;
+    transition: all .5s ease; }
+  .stayintouch ul > li a:hover {
+    color: white; }
+
+html, body {
+  scroll-behavior: smooth;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../images/Pink.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.landingtext {
+  width: 50%; }
+  .landingtext h1 {
+    color: white;
+    font-size: 50px; }
+  .landingtext h5 {
+    font-size: 28px; }
+
+.readmore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  text-align: center;
+  position: absolute;
+  top: calc(100% - 120px);
+  width: 60%; }
+  .readmore a {
+    text-decoration: none;
+    color: white; }
+
+#intro {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 100px;
+  background: #191919;
+  color: white; }
+  #intro h1 {
+    margin-top: 100px; }
+  #intro #aboutme {
+    width: 80%;
+    margin-top: 50px;
+    color: #c2c2c2;
+    font-size: 22px;
+    text-align: justify; }
+  #intro .overview .row > div {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 22px; }
+    #intro .overview .row > div ul {
+      line-height: 25px;
+      text-align: justify;
+      color: #c2c2c2; }
+  #intro .overview ul > li {
+    font-size: 18px; }
+
+@media (min-width: 992px) {
+  #navitems > li {
+    margin-left: 1em;
+    margin-right: 1em; }
+
+  .bg-custom {
+    background-color: transparent;
+    transition: 0.4s; }
+
+  .navbar {
+    height: 70px; }
+
+  .navbar-brand {
+    margin-left: 14em; } }
+@media (max-width: 992px) {
+  .landingtext {
+    font-size: 2em; }
+
+  .bg-custom {
+    background-color: white;
+    transition: 0.4s; } }
+
+/*# sourceMappingURL=style.css.map */

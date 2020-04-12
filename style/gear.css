@@ -1,0 +1,13 @@
+@import url(style.css);
+.container1 {
+  width: 100%;
+  margin-top: 200px;
+  margin-bottom: 250px; }
+  .container1 .container2 {
+    margin: auto;
+    width: 60%; }
+
+.gears {
+  margin-top: 50px; }
+
+/*# sourceMappingURL=gear.css.map */
